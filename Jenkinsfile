@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Checking out source code...'
-                git branch: 'main', url: 'https://github.com/saainikhil/Automated-CI-Pipeline.git'
+                git branch: 'main', url:  'https://github.com/saainikhil/Automated-CI-Pipeline.git'
             }
         }
 
